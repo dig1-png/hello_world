@@ -9,4 +9,4 @@ echo This is a multiple thread process shell file!
 #echo finished all threads
 
 echo to run some threads in the same time!
-python thread1.py & python thread2.py
+python dev/thread1.py & python thread2.py

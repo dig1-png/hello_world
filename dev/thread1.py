@@ -4,7 +4,7 @@ import numpy as np
 import time
 print("I am the first thread to caculate atan value between a and b")
 for i in range(10):
-	time.sleep(2)
+	time.sleep(1)
 	a = np.random.choice(180,1,False)
 	b = np.random.choice(120,1,False)
 	c = math.atan2(a, b)
